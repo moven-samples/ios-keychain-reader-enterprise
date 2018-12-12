@@ -19,8 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odd-q9-U8Z">
-                                <rect key="frame" x="149" y="318" width="78" height="30"/>
-                                <state key="normal" title="Get Shared"/>
+                                <rect key="frame" x="115" y="318" width="147" height="30"/>
+                                <state key="normal" title="Get Unsigned Shared"/>
                                 <connections>
                                     <action selector="showAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nlI-G3-o2B"/>
                                 </connections>

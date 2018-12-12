@@ -122,14 +122,16 @@ static NSString *errorDomain = @"CordovaPluginSharedSecret";
 
 - (IBAction)showAlert:(UIButton *)sender {
     NSLog(@"Button Pressed");
-    NSString *appIdentifierPrefix = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"AppIdentifierPrefix"];
-    NSLog(@"AppIndentifierPrefix=%@", appIdentifierPrefix);
     
     NSError *theError = nil;
+    
+    NSString *accessGroup = @"H2ESFFMXSH.com.movencorp.b2bpartner.bca";
+    NSLog(@"SharedAccessGroup=%@", accessGroup);
 
     NSString *token = [ViewController getSecureStringForKey:@"MovenToken"
                                          andServiceName:@"MovenWellnessSettings"
-                                       andSharedAccessGroup:@"2526YS86J3.com.moven.b2bpartner.bca" isSharedKeychain:TRUE clearSecret:(BOOL)FALSE error:&theError];
+                                         andSharedAccessGroup:accessGroup
+                                         isSharedKeychain:TRUE clearSecret:(BOOL)FALSE error:&theError];
     
     if (theError != nil) {
         NSLog(@"Error: %@", theError);
