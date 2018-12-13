@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3A8AA20B20A5E9E200AA5EA4"
-               BuildableName = "MSIReader.app"
-               BlueprintName = "MSIReader"
-               ReferencedContainer = "container:MSIReader.xcodeproj">
+               BuildableName = "MSIReaderEnterprise.app"
+               BlueprintName = "MSIReaderEnterprise"
+               ReferencedContainer = "container:MSIReaderEnterprise.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A8AA20B20A5E9E200AA5EA4"
-            BuildableName = "MSIReader.app"
-            BlueprintName = "MSIReader"
-            ReferencedContainer = "container:MSIReader.xcodeproj">
+            BuildableName = "MSIReaderEnterprise.app"
+            BlueprintName = "MSIReaderEnterprise"
+            ReferencedContainer = "container:MSIReaderEnterprise.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A8AA20B20A5E9E200AA5EA4"
-            BuildableName = "MSIReader.app"
-            BlueprintName = "MSIReader"
-            ReferencedContainer = "container:MSIReader.xcodeproj">
+            BuildableName = "MSIReaderEnterprise.app"
+            BlueprintName = "MSIReaderEnterprise"
+            ReferencedContainer = "container:MSIReaderEnterprise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3A8AA20B20A5E9E200AA5EA4"
-            BuildableName = "MSIReader.app"
-            BlueprintName = "MSIReader"
-            ReferencedContainer = "container:MSIReader.xcodeproj">
+            BuildableName = "MSIReaderEnterprise.app"
+            BlueprintName = "MSIReaderEnterprise"
+            ReferencedContainer = "container:MSIReaderEnterprise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -86,6 +86,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "MSIReaderEnterprise"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
