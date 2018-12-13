@@ -318,7 +318,7 @@
 				CODE_SIGN_ENTITLEMENTS = MSIReader.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = U9T36T8J82;
+				DEVELOPMENT_TEAM = 2526YS86J3;
 				INFOPLIST_FILE = MSIReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fileformatnet.reader-enterprise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5473e376-0aa3-46be-8ff7-d42db00e7dea";
-				PROVISIONING_PROFILE_SPECIFIER = "Integration Sample Reader (U9T36T8J82)";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise sample Enterprise";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
